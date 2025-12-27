@@ -92,12 +92,8 @@ Open profile:
 notepad $PROFILE
 ```
 ### Step 3: Paste Configuration Code
-Paste **the full configuration** into `$PROFILE`.
-⚠️ If you want **ScreenFetch**, uncomment:
-```powershell
-# try { screenfetch } catch {}
-```
-Otherwise, leave it commented.
+Paste **the full configuration** into `$PROFILE`. 
+⚠️ If you want **ScreenFetch**, uncomment. Otherwise, leave it commented.
 ```powershell
 # ============================================
 # ZSH WINDOWS POWERSHELL DEVELOPED BY AYUDANTE.
