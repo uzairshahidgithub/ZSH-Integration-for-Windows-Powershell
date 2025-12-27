@@ -17,10 +17,8 @@ A clean, stable, error-free PowerShell profile that brings **ZSH-style Linux ter
 | Up / Down Arrow history search        |
 | `Ctrl + R` interactive reverse search |
 | Right Arrow smart word completion     |
-| Right Arrow for command completion    |       
 | `showsg` Show all suggestions         |
 | `myhistory` View command history      |
-| Clear history instantly               |
 
 ### ⏱ Time Features
 | Command           | Description          |
@@ -39,7 +37,7 @@ A clean, stable, error-free PowerShell profile that brings **ZSH-style Linux ter
 ### ⚙️ System Utilities
 | Command           | Description             |
 | ----------------- | ----------------------- |
-| `update`   | Check Windows updates   |
+| `update`   | Check Windows updates (Admin)  |
 | `upgrade` | Install updates (Admin) |
 | `Restart-Shell`   | Restart PowerShell      |
 
@@ -49,6 +47,8 @@ A clean, stable, error-free PowerShell profile that brings **ZSH-style Linux ter
 | `showsg`   | show you suggestions   |
 | `myhistory` | show you memory of commands |
 | `lsc`   | List with color    |
+| `reps`   | Restart Powershell   |
+| `clean`   | Clean Temp Files   |
 
 ## ScreenFetch Support
 ### Step 1: Install ScreenFetch (Optional)
@@ -319,7 +319,7 @@ function Install-Updates {
 }
 
 # Clean temp files
-function Clean-Temp {
+function clean {
     Write-Host "Cleaning temp files..."
     
     $tempPaths = @(
@@ -346,7 +346,7 @@ function Clean-Temp {
 }
 
 # Restart PowerShell
-function Restart-Shell {
+function reps {
     Write-Host "Restarting PowerShell..."
     Start-Process "powershell.exe" -ArgumentList "-NoExit"
     exit
@@ -395,18 +395,15 @@ try {
 ```
 **Save & close Notepad**
 
-### Step 4: Install Windows Update Module
+### Step 4: Install Windows Update Module (Skipped If Installed)
 ```powershell
 Install-Module PSWindowsUpdate -Force -Scope CurrentUser
 ```
-
 ### Step 5: Reload Profile
 ```powershell
 . $PROFILE
 ```
-
 Then **restart PowerShell**.
-
 * `>` → Normal user
 * `#>` → Administrator
 * Time always visible
