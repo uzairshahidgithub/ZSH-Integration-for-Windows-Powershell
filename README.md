@@ -25,10 +25,8 @@
 * Useful **file & system utilities**
 * Works on **Windows 10 / 11**
 * Optional **ScreenFetch support**
-
-## Main Features
-### 🔁 History & Suggestions
-| Feature                               |
+  
+| Main Features                             |
 | ------------------------------------- |
 | Up / Down Arrow history search        |
 | `Ctrl + R` interactive reverse search |
@@ -36,34 +34,20 @@
 | `showsg` Show all suggestions         |
 | `myhistory` View command history      |
 
-### ⏱ Time Features
-| Command           | Description          |
+| Commands           | Description          |
 | ----------------- | -------------------- |
 | Prompt Time       | Shows time in prompt |
 | `time`     | Current time & date  |
 | `startcountdown` | Countdown timer      |
-
-### 📂 Navigation Shortcuts
-| Command           | Action         |
-| ----------------- | -------------- |
-| `Go-Home`         | Home directory |
-| `Go-Desktop`      | Desktop        |
-| `Go-Documents`    | Documents      |
-
-### ⚙️ System Utilities
-| Command           | Description             |
-| ----------------- | ----------------------- |
+| `Go-Home`         | Move to Home directory |
+| `Go-Desktop`      | Move to Desktop        |
+| `Go-Documents`    | Move to Documents      |
 | `update`   | Check Windows updates (Admin)  |
 | `upgrade` | Install updates (Admin) |
 | `reps`   | Restart PowerShell      |
-
-### Other Usefull
-| Command           | Description             |
-| ----------------- | ----------------------- |
 | `showsg`   | show you suggestions   |
 | `myhistory` | show you memory of commands |
 | `lsc`   | List with color    |
-| `reps`   | Restart Powershell   |
 | `clean`   | Clean Temp Files   |
 
 ## ScreenFetch Support
