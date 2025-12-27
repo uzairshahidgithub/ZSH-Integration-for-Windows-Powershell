@@ -27,7 +27,7 @@
 * Optional **ScreenFetch support**
   
 ## Cheatsheet
-| Commands/Keys           | Description          |
+| Commands / Keys           | Description          |
 | ----------------- | -------------------- |
 | `Arrow Up / Down`    | recent commands  |
 | `Right Arrow`     | smart word completion during typing |
