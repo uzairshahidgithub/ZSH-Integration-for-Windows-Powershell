@@ -26,13 +26,12 @@
 * Works on **Windows 10 / 11**
 * Optional **ScreenFetch support**
   
-| Main Features                             |
-| ------------------------------------- |
-| Up / Down Arrow history search        |
-| `Ctrl + R` interactive reverse search |
-| Right Arrow smart word completion     |
-| `showsg` Show all suggestions         |
-| `myhistory` View command history      |
+## Main Features
+* Up / Down Arrow history search
+* `Ctrl + R` interactive reverse search
+* Right Arrow smart word completion
+* `showsg` Show all suggestions
+* `myhistory` View command history
 
 | Commands           | Description          |
 | ----------------- | -------------------- |
