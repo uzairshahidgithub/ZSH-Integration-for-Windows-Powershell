@@ -35,7 +35,6 @@
 ## Cheatsheet
 | Commands           | Description          |
 | ----------------- | -------------------- |
-| Prompt Time       | Shows time in prompt |
 | `time`     | Current time & date  |
 | `startcountdown` | Countdown timer      |
 | `Go-Home`         | Move to Home directory |
