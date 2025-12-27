@@ -29,8 +29,7 @@
 ## Cheatsheet
 | Commands / Keys           | Description          |
 | ----------------- | -------------------- |
-| `Arrow Up / Down`    | recent commands  |
-| `Right Arrow`     | smart word completion during typing |
+| `Arrow Up / Down`    | recent commands and Press Up Arrow during typing they complete with best match |
 | `Ctrl + R`     | interactive reverse search in memory |
 | `time`     | Current time & date |
 | `startcountdown` | Countdown timer      |
