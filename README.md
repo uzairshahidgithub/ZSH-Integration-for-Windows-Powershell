@@ -32,7 +32,7 @@
 * Right Arrow smart word completion
 * `showsg` Show all suggestions
 * `myhistory` View command history
-
+## Cheatsheet
 | Commands           | Description          |
 | ----------------- | -------------------- |
 | Prompt Time       | Shows time in prompt |
