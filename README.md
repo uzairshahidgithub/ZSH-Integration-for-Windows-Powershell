@@ -55,7 +55,7 @@
 | ----------------- | ----------------------- |
 | `update`   | Check Windows updates (Admin)  |
 | `upgrade` | Install updates (Admin) |
-| `Restart-Shell`   | Restart PowerShell      |
+| `reps`   | Restart PowerShell      |
 
 ### Other Usefull
 | Command           | Description             |
@@ -277,14 +277,6 @@ function lsc {
             Write-Host $_.Name
         }
     }
-}
-
-function List-Long {
-    Get-ChildItem -Force @args
-}
-
-function List-All {
-    Get-ChildItem -Force -Hidden @args
 }
 
 # Windows update (simplified)
