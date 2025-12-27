@@ -37,6 +37,7 @@
 | `Go-Home`         | Move to Home directory |
 | `Go-Desktop`      | Move to Desktop        |
 | `Go-Documents`    | Move to Documents      |
+| `Go-Downloads`    | Move to Downloads      |
 | `update`   | Check Windows updates (Admin)  |
 | `upgrade` | Install updates (Admin) |
 | `reps`   | Restart PowerShell      |
