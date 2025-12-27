@@ -7,7 +7,7 @@
 </p>
 
 <h2 align="center"> ZSH-Like Linux Terminal Experience on Windows PowerShell</h2>
-A clean, stable, error-free PowerShell profile that brings **ZSH-style Linux terminal behavior** to Windows PowerShell, without risky aliases or unstable hacks. Designed for developers, security engineers, DevOps users, and power users who want productivity, history intelligence, and a modern prompt while keeping everything native and safe.
+A clean, stable, error-free PowerShell profile that brings ZSH-style Linux terminal behavior to Windows PowerShell, without risky aliases or unstable hacks. Designed for developers, security engineers, DevOps users, and power users who want productivity, history intelligence, and a modern prompt while keeping everything native and safe.
 
 ## Key Highlights
 * ZSH-style **history search & suggestions**
