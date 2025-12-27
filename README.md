@@ -1,4 +1,12 @@
-# ZSH-Like Linux Terminal Experience on Windows PowerShell
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/9fbda57b-d0e5-40c0-898d-2d0ac34b614d"
+    alt="ZSH PowerShell Logo"
+    width="480"
+  />
+</p>
+
+<h2 align="center"> ZSH-Like Linux Terminal Experience on Windows PowerShell</h2>
 A clean, stable, error-free PowerShell profile that brings **ZSH-style Linux terminal behavior** to Windows PowerShell, without risky aliases or unstable hacks. Designed for developers, security engineers, DevOps users, and power users who want productivity, history intelligence, and a modern prompt while keeping everything native and safe.
 
 ## Key Highlights
