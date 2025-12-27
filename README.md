@@ -26,16 +26,13 @@
 * Works on **Windows 10 / 11**
 * Optional **ScreenFetch support**
   
-## Main Features
-* Up / Down Arrow history search
-* `Ctrl + R` interactive reverse search
-* Right Arrow smart word completion
-* `showsg` Show all suggestions
-* `myhistory` View command history
 ## Cheatsheet
 | Commands           | Description          |
 | ----------------- | -------------------- |
-| `time`     | Current time & date  |
+| `Arrow Up / Down`    | recent commands  |
+| `Right Arrow`     | smart word completion during typing |
+| `Ctrl + R`     | interactive reverse search in memory |
+| `time`     | Current time & date |
 | `startcountdown` | Countdown timer      |
 | `Go-Home`         | Move to Home directory |
 | `Go-Desktop`      | Move to Desktop        |
