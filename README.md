@@ -98,9 +98,8 @@ Paste **the full configuration** into `$PROFILE`.
 # ============================================
 # ZSH WINDOWS POWERSHELL DEVELOPED BY AYUDANTE.
 # ============================================
-
 Clear-Host
-# try { screenfetch } catch {} # uncomment if you want screenfetch in start
+# try { screenfetch } catch {}
 
 # Load PSReadLine
 try {
@@ -258,27 +257,10 @@ function startcountdown {
     Write-Host "`nDone!"
 }
 
-function Go-UpOne { Set-Location .. }
-function Go-UpTwo { Set-Location ..\.. }
-function Go-UpThree { Set-Location ..\..\.. }
 function Go-Home { Set-Location $HOME }
 function Go-Desktop { Set-Location "$HOME\Desktop" }
 function Go-Documents { Set-Location "$HOME\Documents" }
 function Go-Downloads { Set-Location "$HOME\Downloads" }
-
-# Create and enter directory
-function New-DirAndEnter {
-    param([string]$Path)
-    
-    if (-not $Path) {
-        Write-Host "Usage: New-DirAndEnter <path>"
-        return
-    }
-    
-    New-Item -ItemType Directory -Path $Path -Force | Out-Null
-    Set-Location $Path
-    Write-Host "Created and entered: $Path"
-}
 
 # Colorful listing
 function lsc {
@@ -305,8 +287,8 @@ function List-All {
     Get-ChildItem -Force -Hidden @args
 }
 
-# Windows Update (simplified)
-function Check-Updates {
+# Windows update (simplified)
+function update {
     if (-not (Get-Module -ListAvailable PSWindowsUpdate)) {
         Write-Host "PSWindowsUpdate module not installed"
         Write-Host "Run: Install-Module PSWindowsUpdate -Scope CurrentUser"
@@ -317,7 +299,7 @@ function Check-Updates {
     Get-WindowsUpdate
 }
 
-function Install-Updates {
+function upgrade {
     if ([Security.Principal.WindowsPrincipal]::new(
         [Security.Principal.WindowsIdentity]::GetCurrent()
     ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
